@@ -63,7 +63,7 @@ export default function Projects() {
                             {project.description}
                         </Typography>
 
-                        <Typography variant="body2" color="text.secondary" sx={{ maxWidth: 560, mb: 2 }}>
+                        <Typography variant="body2"  sx={{ maxWidth: 560, mb: 2,color:"text.secondary" }}>
                             {project.role}
                         </Typography>
 
