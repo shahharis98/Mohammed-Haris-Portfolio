@@ -72,7 +72,7 @@ export default function Home() {
           }}>
             View my work
           </Button>
-          <Button variant="outlined" size="large" component={Link} href="/contact" color="text.secondary">
+          <Button variant="outlined" size="large" component={Link} href="/contact" sx={{color:"text.secondary"}}>
             Get in touch
           </Button>
         </Stack>
