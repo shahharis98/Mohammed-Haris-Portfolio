@@ -42,7 +42,7 @@ export default function Projects() {
                 Projects
             </Typography>
             <Typography variant="body1" color="text.secondary" sx={{ maxWidth: 500, mb: 6 }}>
-                A couple of things I've built end to end.
+                A couple of things I&apos;ve built end to end.
             </Typography>
 
             <Stack spacing={6} >
@@ -67,7 +67,7 @@ export default function Projects() {
                             {project.role}
                         </Typography>
 
-                        <Stack direction="row" spacing={1} sx={{ mb: 2, flexWrap: 'wrap', gap: 1 }}>
+                        <Stack direction="row"  sx={{ mb: 2, flexWrap: 'wrap', gap: 1 }}>
                             {project.stack.map((tech) => (
                                 <Chip
                                     key={tech}
