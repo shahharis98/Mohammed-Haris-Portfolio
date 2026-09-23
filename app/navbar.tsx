@@ -43,9 +43,9 @@ export default function Navbar() {
   };
 
   return (
-    <AppBar position="static" color="background" elevation={0} sx={{ px: { xs: 0, md: 7 }, py: { xs: 8, md: 1 } }}>
+    <AppBar position="static" color="default" elevation={0} sx={{ px: { xs: 0, md: 7 }, py: { xs: 8, md: 1 } }}>
       <Toolbar sx={{ justifyContent: 'space-between' }}>
-        <Stack direction="row" spacing={1.2} alignitems="center">
+        <Stack direction="row" spacing={1.2} sx={{alignItems:'center'}}>
 
 
           <Box
