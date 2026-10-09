@@ -33,6 +33,17 @@ const projects = [
         live: 'No live link available',
 
     },
+{
+name: 'AI Code Reviewer (Personal Project)',
+description:
+'Built an AI-powered code review application that analyzes source code, identifies potential bugs and code quality issues, and provides actionable feedback to help developers improve their code.',
+role: 'Designed and developed the application to streamline code reviews by integrating AI-powered code analysis and feedback into a user-friendly interface.',
+stack: ['React.js', 'Next.js ', 'AI/LLM Integration', 'REST APIs'],
+live: 'http://ai-code-reviewer-ten-orcin.vercel.app/',
+},
+    
+
+    
 ];
 
 export default function Projects() {
